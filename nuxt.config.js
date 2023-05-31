@@ -144,6 +144,7 @@ export default {
 
   build: {
     transpile: [/^element-ui/],
+    publicPath: '/_nuxt/',
     loaders: {
       vue: {
         compiler,
